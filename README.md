@@ -10,6 +10,14 @@ The Traffic Sign Recognition System utilizes the following key components and te
 **Project Details**
 The Traffic Sign Recognition System focuses on utilizing the EfficientNetB3 neural network architecture. EfficientNetB3 is an efficient and powerful neural network that has been trained on millions of images by Google. The system leverages this pre-trained model to recognize 43 different traffic sign classes, including speed limits, turning right, and U-turn.
 The dataset used in this project consists of 43 classes, with each class comprising 160 training images and 20 test images. Python concepts such as listdir, mkdir, directories, and dictionaries are employed in the implementation of the system.
+**Repository Structure **
+The repository is structured as follows:
+
+*/PPT: This directory contains the presentation for the traffic sign recognition project. 
+*/Project report: This directory includes all the details about the project such as the related work studied, different techniques existing, applications, future scope,                        confusion matrix and the algorithm followed. 
+*/SID DATAPREPROCESSING: This directory conatins the source code of the data preprocessing of the project. 
+*/Sid_Naman_project: This directory contains the source code of the part where we train the neural network and obtain teh result of our project.
+*/flowchart: This directory contains the flowchart of the algorithm followed.
 **Getting Started**
 1. Ensure you have the necessary dependencies installed, including Python, OpenCV, TensorFlow, and Keras.
 2. Explore the project files to familiarize yourself with the code structure, including the CNN model architecture, data preprocessing, training, and evaluation.
